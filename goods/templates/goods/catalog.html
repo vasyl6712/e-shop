@@ -73,7 +73,7 @@
                         <p class="card-title">
                             {% autoescape off %}
                                 {% if product.headline %}
-                                {{product.headline}}
+                                {{product.headline }}
                                 {% else %}
                                 {{ product.name }}
                                 {% endif %}
@@ -83,9 +83,9 @@
                     <p class="card-text">
                         {% autoescape off %}
                             {% if product.bodyline %}
-                            {{product.bodyline|truncatechars:100}}
+                            {{product.bodyline }}
                             {% else %}
-                            {{ product.description|truncatechars:35 }}
+                            5{{ product.description }}
                             {% endif %}
                         {% endautoescape %}
                     </p>

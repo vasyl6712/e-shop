@@ -36,3 +36,58 @@ body {
   border-radius: 15px;
   font-size: 0.7rem;
 }
+
+
+/*==================== Product card ==================================*/
+
+.card img {
+  max-height: 250px;
+}
+
+.card-body a {
+  text-decoration: none;
+}
+
+.card-title {
+  width: 285px;
+  height: 60px;
+  line-height: 18px;
+  margin-bottom: 0;
+  overflow: hidden;
+}
+
+.card-title:hover {
+  color: #ee6e73;
+  box-shadow: 0 10px 20px -15px rgba(0, 0, 0, 0.75);
+}
+
+.card-text {
+  width: 285px;
+  height: 130px;
+  line-height: 18px;
+  margin-bottom: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-text::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  background: linear-gradient(180deg, transparent, #ffffff 65%);
+}
+
+.card-footer {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  height: 90px;
+  overflow: hidden;
+}
+
+.card-footer p {
+  font-size: 17px;
+}
+/*==================== END Product card ==================================*/

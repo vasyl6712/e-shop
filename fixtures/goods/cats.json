@@ -1,0 +1,66 @@
+[
+    {
+        "model": "goods.categories",
+        "pk": 1,
+        "fields": {
+            "name": "Усі товари",
+            "slug": "usi-tovary"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 2,
+        "fields": {
+            "name": "Мережеве Wi-Fi",
+            "slug": "merezheve-wi-fi"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 3,
+        "fields": {
+            "name": "Дрони",
+            "slug": "droni"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 4,
+        "fields": {
+            "name": "Тепловізори",
+            "slug": "teplovizori"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 5,
+        "fields": {
+            "name": "Прилади нічного бачення",
+            "slug": "priladi-nichnogo-bachennya"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 6,
+        "fields": {
+            "name": "Портатівні зарядні станції",
+            "slug": "portativni-zaryadni-stanciyi"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 7,
+        "fields": {
+            "name": "Війскове екіпірування",
+            "slug": "vijskove-ekipiruvannya"
+        }
+    },
+    {
+        "model": "goods.categories",
+        "pk": 8,
+        "fields": {
+            "name": "Аксесуари",
+            "slug": "aksesuary"
+        }
+    }
+]

@@ -13,7 +13,7 @@ def catalog(request, category_slug=None):
     order_by = request.GET.get('order_by', None)
     query = request.GET.get('q', None)
     
-    if category_slug == "all":
+    if category_slug == "usi-tovary":
         goods = Products.objects.all()
     elif query:
         goods = q_search(query)
